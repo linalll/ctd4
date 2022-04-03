@@ -1,7 +1,4 @@
-# Password validation in Python
-# using naive method
-  
-# Function to validate the password
+
 def password_check(passwd):
       
     SpecialSym =['$', '@', '#', '%']
@@ -33,7 +30,6 @@ def password_check(passwd):
     if val:
         return val
   
-# Main method
 def main():
     userName = input(" Username: ")
     passwd = input("\n please enter a password: \n")
@@ -47,7 +43,6 @@ def main():
         print(passwd)
     else:
         print("Invalid Password !!")
-          
-# Driver Code        
+                 
 if __name__ == '__main__':
     main()
